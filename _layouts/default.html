@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+
+{% seo %}
+
+<meta property="og:image" content="https://cdn.discordapp.com/avatars/398690824721924107/4a5c4e12547c316382ba3b4fabe768cc.png?size=1024" />
+<meta name="theme-color" content="#00AFD5">
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:creator" content="@advaithj1" />
+<meta HTTP-EQUIV="REFRESH" content="0; url=https://discordapp.com/oauth2/authorize?client_id=398690824721924107&amp;scope=bot">
+<body>
+
+    <section class="page-header">
+      <h1 class="project-name">AdvaithBot</h1>
+      <h2 class="project-tagline">Thanks for adding AdvaithBot to your server!</h2>
+      <a href="https://discord.gg/WxPH3Fc" class="btn">Join Server</a>
+      <a href="https://discordbots.org/bot/398690824721924107/vote" class="btn">Upvote</a>
+      <a href="https://github.com/advaith1/advaithbot" class="btn">GitHub</a>
+      <a href="https://trello.com/b/9KhLPb1X" class="btn">Trello</a>
+    </section>
+
+    <section class="main-content">
+      {{content}}
+
+      <footer class="site-footer">
+        {% if site.github.is_project_page %}
+          <span class="site-footer-owner">This site was created with <a href="https://jekyllrb.com" target="_blank" rel="noopener">Jekyll</a> and is hosted on <a href="https://pages.github.com" target="_blank" rel="noopener">GitHub Pages</a>. It's also <a href="{{ site.github.repository_url }}" target="_blank" rel="noopener">open source</a>.</span>
+        {% endif %}
+        <span class="site-footer-credits">P.S. we use Google Analytics. <a href="https://policies.google.com/technologies/partner-sites" target="_blank" rel="noopener">Privacy info</a></span>
+      </footer>
+    </section>
+    </body>
+</html>
