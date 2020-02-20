@@ -1,5 +1,5 @@
 # Redirecting to Discord...
 
-<meta HTTP-EQUIV="REFRESH" content="0; url=https://discordapp.com/oauth2/authorize?client_id=398690824721924107&amp;scope=bot">
+<meta HTTP-EQUIV="REFRESH" content="0; url=https://discordapp.com/oauth2/authorize?client_id=398690824721924107&amp;scope=bot&amp;response_type=code">
 
-<a href="https://discordapp.com/oauth2/authorize?client_id=398690824721924107&amp;scope=bot">Click here if you are not automatically redirected.</a>
+<a href="https://discordapp.com/oauth2/authorize?client_id=398690824721924107&amp;scope=bot&amp;response_type=code">Click here if you are not automatically redirected.</a>
